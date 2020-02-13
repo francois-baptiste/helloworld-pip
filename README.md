@@ -10,7 +10,7 @@ pip install --upgrade git+https://github.com/vichak/helloworld-pip.git#egg=hello
 
 To use:
 ```
->>> from helloworld import say_hello_world
+>>> from helloworld.main import say_hello_world
 >>> say_hello_world()
 u'hello world!'
 
